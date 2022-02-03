@@ -1,5 +1,9 @@
 .search-input {
-	margin: auto;
-	width: 500px;
+	display: flex;
+	flex-direction: row;
+	width: 200px;
 	padding: 10px;
+}
+.search-button {
+	width: 100px;
 }
