@@ -3,5 +3,6 @@
 	flex-direction: column;
 }
 .nasa-logo {
+	margin: auto;
 	width: 300px;
 }
