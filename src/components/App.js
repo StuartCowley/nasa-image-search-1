@@ -4,8 +4,8 @@ import SearchResults from '../components/SearchResults.js';
 import '../styles/App.css';
 
 function App() {
-	const [searchResults, setSearchResults] = useState('');
-	console.log(searchResults);
+	const [searchResults, setSearchResults] = useState([]);
+	// searchResults.map(e => console.log(e));
 	return (
 		<div className="App">
 			<img
