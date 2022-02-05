@@ -14,7 +14,7 @@ const getImages = query => {
 				);
 
 				const images = parsedImages.map(image => image.links[0].href);
-				console.log(images);
+				// console.log(images);
 				return images;
 			})
 			.catch(err => {
