@@ -1,3 +1,7 @@
-.trial-image {
-	width: 400px;
+.search-results {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	flex-shrink: initial;
+	padding: 10px;
 }
