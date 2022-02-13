@@ -16,17 +16,17 @@ const Search = ({ setSearchResults, setErrorMessage }) => {
 			setErrorMessage(false);
 		}
 	};
-	// console.log(searchResults);
 	return (
 		<div className="search-wrapper">
 			<form className="search-form" onSubmit={handleSubmit}>
 				<input
 					className="search-input"
 					type="text"
+					placeholder="find your perfect space"
 					onChange={event => setValue(event.target.value)}
 				/>
 				<button className="search-button" type="submit">
-					search images
+					SEARCH IMAGES
 				</button>
 			</form>
 		</div>

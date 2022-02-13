@@ -4,12 +4,12 @@ import PropTypes from 'prop-types';
 
 const SearchResults = ({ results, error }) => {
 	if (error) {
-		return <p>No results</p>;
+		return <h2>Sorry, no results</h2>;
 	}
 	if (results.length > 0) {
 		return (
 			<div className="search-results">
-				<p>Search results</p>
+				<h2>Search results</h2>
 				<div className="image-grid">
 					{results.map(image => (
 						<img

@@ -14,7 +14,7 @@ describe('Search', () => {
 	});
 	it('button renders with correct text', () => {
 		render(<Search setSearchResults={validProps.setSearchResults} />);
-		const buttonElement = screen.getByText('search images');
+		const buttonElement = screen.getByText('SEARCH IMAGES');
 		expect(buttonElement).toBeInTheDocument();
 	});
 });

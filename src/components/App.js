@@ -6,7 +6,7 @@ import '../styles/App.css';
 function App() {
 	const [searchResults, setSearchResults] = useState([]);
 	const [errorMessage, setErrorMessage] = useState(false);
-	// searchResults.map(e => console.log(e));
+
 	return (
 		<div className="App">
 			<img
@@ -14,6 +14,8 @@ function App() {
 				src="https://cdn.cnn.com/cnnnext/dam/assets/200424060716-nasa-worm-logo.jpg"
 				alt="nasaLogo"
 			/>
+			<h2>Need more space?</h2>
+
 			<Search
 				setSearchResults={setSearchResults}
 				setErrorMessage={setErrorMessage}
