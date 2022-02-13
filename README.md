@@ -2,6 +2,8 @@
 
 Tech Test style project with [Manchester Codes](https://www.manchestercodes.com/).
 
+View deployed project [here](https://helidevine.github.io/nasa-image-search/)
+
 Brief for the project:
 
 Build a React web application that allows users to search for images based on a query relating to space and use provided NASA API endpoint for image search.
