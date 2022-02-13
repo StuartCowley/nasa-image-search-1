@@ -3,9 +3,13 @@ import { render } from '@testing-library/react';
 import SearchResults from '../components/SearchResults';
 
 describe('SearchResults', () => {
-	const { asFragment } = render(<SearchResults />);
-
+	const validProps = {
+		results: ['image.jpg', 'image2.jpg', 'image3.jpg'],
+	};
 	it('renders correctly', () => {
+		const { asFragment } = render(
+			<SearchResults results={validProps.results} />,
+		);
 		expect(asFragment()).toMatchSnapshot();
 	});
 });

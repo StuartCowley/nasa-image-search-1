@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`App renders correctly 1`] = `
+exports[`Nasa-image-search App renders correctly 1`] = `
 <DocumentFragment>
   <div
     class="App"
@@ -24,15 +24,9 @@ exports[`App renders correctly 1`] = `
         search images
       </button>
     </form>
-    <div
-      class="search-results"
-    >
-      <img
-        alt="moon"
-        class="trial-image"
-        src="https://images.unsplash.com/photo-1522030299830-16b8d3d049fe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"
-      />
-    </div>
+    <p>
+      No results
+    </p>
   </div>
 </DocumentFragment>
 `;
