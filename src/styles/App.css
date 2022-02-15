@@ -1,0 +1,14 @@
+.App {
+	display: flex;
+	flex-direction: column;
+}
+.nasa-logo {
+	margin: auto;
+	width: 300px;
+	mix-blend-mode: darken;
+}
+h2 {
+	text-align: center;
+	color: darkblue;
+	margin: 5px;
+}

@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Nasa-image-search App renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="App"
+  >
+    <img
+      alt="nasaLogo"
+      class="nasa-logo"
+      src="https://cdn.cnn.com/cnnnext/dam/assets/200424060716-nasa-worm-logo.jpg"
+    />
+    <h2>
+      Need more space?
+    </h2>
+    <div
+      class="search-wrapper"
+    >
+      <form
+        class="search-form"
+      >
+        <input
+          class="search-input"
+          placeholder="find your perfect space"
+          type="text"
+        />
+        <button
+          class="search-button"
+          type="submit"
+        >
+          SEARCH IMAGES
+        </button>
+      </form>
+    </div>
+  </div>
+</DocumentFragment>
+`;
